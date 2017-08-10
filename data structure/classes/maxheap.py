@@ -3,7 +3,7 @@ from array import Array
 class MaxHeap(object):
   """Create a max-heap with maximum capacity of maxSize"""
   def __init__(self, maxSize):
-    super(MaxHeap, self).__init__()
+    super(MaxHeap, self).__init__()  # == to object.__init__(self)
     self._elements = Array( maxSize)
     self._count = 0
 
